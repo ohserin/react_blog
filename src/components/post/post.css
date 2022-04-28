@@ -1,0 +1,64 @@
+.post {
+    width: 32%;
+    display: block;
+}
+.post .post__header {
+}
+.post .post__header img {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.post .post__body {
+    width: 100%;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+.post .post__cate {
+    background: #ff5151;
+    border-radius: 20px;
+    padding: 3px 15px;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.post .post__title {
+    width: 100%;
+    font-size: 26px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.post .post__desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+.post .post__info .author {
+}
+.post .post__info .date {
+    float: right;
+    font-size: 0.8em;
+    opacity: 0.6;
+}
+.post .post__btn {
+    text-align: center;
+}
+.post .post__btn a {
+    text-align: center;
+    background: #f5f5f5;
+    border-radius: 3px;
+    color: #000;
+    border: 1px solid #dddddd;
+    margin-top: 50px;
+    padding: 15px 50px;
+}

@@ -1,0 +1,86 @@
+#header {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    min-width: 1200px;
+    white-space: nowrap;
+    height: 80px;
+    background: #fff;
+}
+#header .logo {
+    flex: 0 0 20%;
+}
+#header .logo a {
+    font-size: 30px;
+    padding: 12px 18px;
+    display: inline-block;
+}
+#header .logo a em {
+    font-size: 18px;
+    font-weight: 300;
+}
+#header .menu {
+    flex: 0 0 60%;
+    text-align: center;
+}
+#header .menu li {
+    display: inline;
+    position: relative;
+}
+#header .menu li a {
+    padding: 20px 30px;
+    display: inline-block;
+    transition: all 0.1s;
+}
+#header .menu li a:hover {
+    background: #1b72be;
+    color: #fff;
+    border-radius: 5px;
+}
+#header .menu li ul.sub {
+    position: absolute;
+    left: -25%;
+    top: 38px;
+    padding: 15px 0;
+    background: #fff;
+    border: 1px solid #f5f5f5;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+#header .menu li ul.sub li {
+    display: block;
+}
+#header .menu li ul.sub li a {
+    padding: 15px 30px;
+}
+#header .menu li ul.sub li a:hover {
+    text-decoration: underline;
+    background: transparent;
+}
+#header .menu li:hover ul.sub {
+    opacity: 1;
+    visibility: visible;
+}
+#header .member {
+    flex: 0 0 20%;
+    text-align: right;
+    padding: 5px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+#header .member img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#header .member span {
+    padding-right: 20px;
+    margin-top: 5px;
+}

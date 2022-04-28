@@ -1,0 +1,65 @@
+.blog__body {
+    text-align: left;
+    width: 67%;
+}
+.blog__cate {
+    background: #ff5151;
+    border-radius: 20px;
+    padding: 3px 15px;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.blog__title {
+    width: 100%;
+    font-size: 26px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.blog__write {
+    text-align: left;
+}
+.blog__write label {
+    display: block;
+    margin-bottom: 5px;
+}
+.blog__write input {
+    width: 100%;
+    background: #ededed;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.blog__write select {
+    width: 20%;
+    background: #ededed;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.blog__write textarea {
+    width: 100%;
+    background: #ededed;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    resize: none;
+    height: 400px;
+}
+.blog__write button {
+    background: #000;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 30px;
+    float: right;
+}
