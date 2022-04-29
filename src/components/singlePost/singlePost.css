@@ -1,0 +1,34 @@
+.single__post {
+    margin-top: 100px;
+    width: 68%;
+}
+.single__post .title {
+    font-weight: normal;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.single__post .author {
+    padding-right: 10px;
+}
+.single__post .modify {
+    float: right;
+    padding-left: 10px;
+}
+.single__post .modify a {
+    color: #666;
+    font-size: 0.9em;
+}
+.single__post .delete {
+    float: right;
+}
+.single__post .delete a {
+    color: #666;
+    font-size: 0.9em;
+}
+.single__post .desc {
+    padding-top: 20px;
+    line-height: 1.8;
+}
+.single__post .desc p {
+    padding-top: 20px;
+}
